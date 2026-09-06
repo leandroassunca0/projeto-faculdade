@@ -1,0 +1,90 @@
+.ponto-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.ponto-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+
+.ponto-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.ponto-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ponto-form-group.full-width {
+  grid-column: 1 / -1;
+}
+
+.ponto-form-group label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #475569;
+}
+
+.ponto-form-group input,
+.ponto-form-group select {
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  outline: none;
+  background-color: #fff;
+  transition: border-color 0.2s;
+}
+
+.ponto-form-group input:focus,
+.ponto-form-group select:focus {
+  border-color: #2563eb;
+}
+
+.filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 30px;
+  margin-bottom: 16px;
+  padding: 12px 16px;
+  background-color: #f8fafc;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+}
+
+.filter-bar label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #334155;
+}
+
+.filter-bar select {
+  padding: 8px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 0.9rem;
+}
+
+.badge-saida-pendente {
+  display: inline-block;
+  padding: 4px 8px;
+  background-color: #fef3c7;
+  color: #92400e;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
